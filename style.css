@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    color: aquamarine;
+    color: black;
     font-family: sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5,h6{
     font-weight: 900;
     color:black;
 }
@@ -20,12 +20,11 @@ h1,h2,h3,h4{
 main{
     display: block;
     background-color: white;
-
 }
 
 .container{
     width: 100%;
-    max-width: 760px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -46,10 +45,10 @@ section.module h2{
 
 section.module.content{
     padding:40px 0;
-    background: white;
+    background: gray;
 }
 
-section.module.parakkax{
+section.module.paralax {
     display: flex;
     flex-direction:column ;
     justify-content: center;
@@ -63,9 +62,36 @@ section.module.parakkax{
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-section.module.parallax-1{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIYoj1Kq_bi8MLIG8_e7-1nk_7whYqniv5g&s);
+section.module.paralax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 48%, #000 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 48%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 48%, #000 100%);
+}
+
+section.module.imagem-1{
+    background-image: url(https://www.socialistamorena.com.br/wp-content/uploads/2014/03/carolinaquarto-e1527714099970.jpg);
+}
+
+section.module.imagem-2{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9513ccfb-de5b-4dcb-b5cd-bf72f3f78c99/dfaqnu9-6400a7ef-f6c6-4a5a-9aa3-9e0cbbbbf115.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk1MTNjY2ZiLWRlNWItNGRjYi1iNWNkLWJmNzJmM2Y3OGM5OVwvZGZhcW51OS02NDAwYTdlZi1mNmM2LTRhNWEtOWFhMy05ZTBjYmJiYmYxMTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bvUHkGXeL0VxaZ3Kxv9XLIoRYbTIexwvqpybFht6WsA);
+}
+
+section.module.imagem-3{
+    background-image: url(https://cdn.kobo.com/book-images/dace233f-1bfe-4ec0-b7fc-aa6eff08b681/1200/1200/False/chainsaw-man-vol-10.jpg);
+}
+
+section.module.paralax h1{
+    color: white;
+    text-align: center;
+    font-size: 78px;
+   z-index: 50;
+   text-transform: uppercase; 
 }
