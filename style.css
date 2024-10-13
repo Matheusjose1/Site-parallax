@@ -9,8 +9,11 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-weight: 900;
-    color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
 }
+
 
 .wrapper{
     width: 100%;
@@ -19,7 +22,7 @@ h1,h2,h3,h4,h5,h6{
 
 main{
     display: block;
-    background-color: white;
+    background-color: gray;
 }
 
 .container{
@@ -48,6 +51,7 @@ section.module.content{
     background: gray;
 }
 
+
 section.module.paralax {
     display: flex;
     flex-direction:column ;
@@ -65,29 +69,72 @@ section.module.paralax {
     -o-background-size: cover;
 }
 
-section.module.paralax:after{
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 8;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 48%, #000 100%);
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 48%, #000 100%);
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 48%, #000 100%);
-}
 
 section.module.imagem-1{
-    background-image: url(https://www.socialistamorena.com.br/wp-content/uploads/2014/03/carolinaquarto-e1527714099970.jpg);
+    background-image: url(https://lunetas.com.br/wp-content/uploads/2018/12/clarice-lispector-para-criancas-1.jpg);
 }
 
 section.module.imagem-2{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9513ccfb-de5b-4dcb-b5cd-bf72f3f78c99/dfaqnu9-6400a7ef-f6c6-4a5a-9aa3-9e0cbbbbf115.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk1MTNjY2ZiLWRlNWItNGRjYi1iNWNkLWJmNzJmM2Y3OGM5OVwvZGZhcW51OS02NDAwYTdlZi1mNmM2LTRhNWEtOWFhMy05ZTBjYmJiYmYxMTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bvUHkGXeL0VxaZ3Kxv9XLIoRYbTIexwvqpybFht6WsA);
+    background-image: url(https://ims.com.br/wp-content/uploads/2017/06/ClariceLispector_LI-0036_1920x1080.jpg);
 }
 
 section.module.imagem-3{
-    background-image: url(https://cdn.kobo.com/book-images/dace233f-1bfe-4ec0-b7fc-aa6eff08b681/1200/1200/False/chainsaw-man-vol-10.jpg);
+    background-image: url(https://res.cloudinary.com/jerrick/image/upload/v1696106279/65188727b95947001d93a943.jpg);
 }
 
+section.module.imagem-4{
+    background-image: url(https://www.escolameucaminhar.com.br/blog/wp-content/uploads/2019/09/ensine-ao-seu-filho-o-habito-da-leitura.jpg);
+}
+
+section.module.imagem-5 {
+    background-image: url(https://i.pinimg.com/originals/23/cc/4a/23cc4acc8532e98209fcb25fe9ac69db.jpg);
+}
+
+section.module.imagem-6{
+
+    background-image: url(https://64.media.tumblr.com/b3f977fe7cdcd19ceacaee1ddfebc5b0/tumblr_o39s7jD0eF1ua98z1o1_1280.jpg);
+}
+
+section.module.imagem-7{
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Typography_wallpaper.jpg/1280px-Typography_wallpaper.jpg);
+}
+section.module.imagem-8{
+
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60eee6aae3b70d6a99e9064a/4ebd3c1f-f88c-4482-914a-99b24924c844/TEST19.jpg);
+}
+section.module.imagem-9{
+
+    background-image: url(https://www.pensarcursos.com.br/blog/wp-content/uploads/2024/07/10-escritores-brasileiros-que-voce-precisa-conhecer-1.jpg);
+}
+section.module.imagem-10{
+
+    background-image: url(https://profmigueljunior.wordpress.com/wp-content/uploads/2012/03/o-grito1.jpg);
+}
+section.module.imagem-11{
+
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/038/013/cover4.jpg);
+}
+section.module.imagem-12{
+
+    background-image: url(https://lunetas.com.br/wp-content/uploads/2023/11/autores-de-livros-adultos-que-tambem-escreveram-para-criancas-portal-lunetas-2.jpg);
+}
+section.module.imagem-13{
+
+    background-image: url(https://digitalland.com.br/wp-content/uploads/2019/03/279178-quer-saber-como-fazer-storytelling-considere-x-boas-praticas.jpg);
+}
+section.module.imagem-14{
+
+    background-image: url(https://cinepop.com.br/wp-content/uploads/2021/07/de-volta-para-o-futuro.jpg);
+}
+section.module.imagem-15{
+
+    background-image: url(https://labdicasjornalismo.com/images/noticias/2164/2164_24112019220704.jpg);
+}
+
+section.module.imagem-16{
+    background-image: url(https://i.pinimg.com/originals/26/52/4b/26524bb300b4a6bb88da5fc364fe38f2.gif);
+}
 section.module.paralax h1{
     color: white;
     text-align: center;
@@ -95,3 +142,4 @@ section.module.paralax h1{
    z-index: 50;
    text-transform: uppercase; 
 }
+
